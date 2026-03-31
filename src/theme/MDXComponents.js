@@ -6,6 +6,7 @@ import React from 'react';
   import CardFooter from '@site/src/components/Card/CardFooter';
   import CardHeader from '@site/src/components/Card/CardHeader';
   import CardImage from '@site/src/components/Card/CardImage';
+  import Button from '@site/src/components/Button';
   export default {
     // Reusing the default mapping
     ...MDXComponents,
@@ -14,4 +15,5 @@ import React from 'react';
     CardBody, 
     CardFooter, 
     CardImage,
+    Button,
   };
