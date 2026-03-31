@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkbobpeulen_github_io=globalThis.webpackChunkbobpeulen_github_io||[]).push([[7110],{3741(o){o.exports=JSON.parse('{"metadata":{"permalink":"/docusaurus_oci_oss/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
