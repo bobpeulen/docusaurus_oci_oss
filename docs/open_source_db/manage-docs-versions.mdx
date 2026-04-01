@@ -13,111 +13,173 @@ Docusaurus can manage multiple versions of your docs.
 -------------------
 **Description:** Replication refers to any PostgreSQL database system replicating data to another PostgreSQL database system. Example methods are pglogical, OCI GolgenGate, and native functionalities.
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card-demo">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cards Layout</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f6f8;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px; /* spacing between rows + columns */
+    }
+
+    .col {
+      flex: 1 1 calc(50% - 32px); /* 2 per row */
+      display: flex;
+    }
+
+    .card {
+      width: 100%;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+
+      transform: scale(0.67);
+      transform-origin: top left;
+    }
+
+    .card__header {
+      padding: 16px;
+    }
+
+    .avatar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .avatar__photo {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+    }
+
+    .avatar__name {
+      font-weight: bold;
+    }
+
+    .avatar__subtitle {
+      color: #666;
+      font-size: 12px;
+    }
+
+    .card__image img {
+      width: 100%;
+      display: block;
+    }
+
+    .card__footer {
+      padding: 12px;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .button {
+      padding: 8px 12px;
+      border: none;
+      border-radius: 6px;
+      background: #e4e6eb;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background: #d8dadf;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+
+      <!-- CARD 1 -->
+      <div class="col">
         <div class="card">
           <div class="card__header">
             <div class="avatar">
-              <img
-                class="avatar__photo"
-                src="https://avatars1.githubusercontent.com/u/4060187?s=460&v=4"
-                alt="Jared Palmer"
-              />
-              <div class="avatar__intro">
+              <img class="avatar__photo" src="https://avatars1.githubusercontent.com/u/4060187?s=460&v=4">
+              <div>
                 <div class="avatar__name">Jared Palmer</div>
-                <small class="avatar__subtitle">Consultant, Speaker, Lead Engineer</small>
+                <div class="avatar__subtitle">Consultant, Speaker</div>
               </div>
             </div>
           </div>
-
           <div class="card__image">
-            <img
-              src="https://images.unsplash.com/photo-1501619951397-5ba40d0f75da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80"
-              alt="Image alt text"
-            />
+            <img src="https://images.unsplash.com/photo-1501619951397-5ba40d0f75da?auto=format&fit=crop&w=800&q=80">
           </div>
-
           <div class="card__footer">
-            <div class="button-group button-group--block">
-              <button class="button button--secondary">Like</button>
-              <button class="button button--secondary">Comment</button>
-              <button class="button button--secondary">Share</button>
+            <div class="button-group">
+              <button class="button">Like</button>
+              <button class="button">Comment</button>
+              <button class="button">Share</button>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="col-md-4">
-      <div class="card-demo">
+      <!-- CARD 2 -->
+      <div class="col">
         <div class="card">
           <div class="card__header">
             <div class="avatar">
-              <img
-                class="avatar__photo"
-                src="https://avatars1.githubusercontent.com/u/4060187?s=460&v=4"
-                alt="Jared Palmer"
-              />
-              <div class="avatar__intro">
+              <img class="avatar__photo" src="https://avatars1.githubusercontent.com/u/4060187?s=460&v=4">
+              <div>
                 <div class="avatar__name">Jared Palmer</div>
-                <small class="avatar__subtitle">Consultant, Speaker, Lead Engineer</small>
+                <div class="avatar__subtitle">Consultant, Speaker</div>
               </div>
             </div>
           </div>
-
           <div class="card__image">
-            <img
-              src="https://images.unsplash.com/photo-1501619951397-5ba40d0f75da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80"
-              alt="Image alt text"
-            />
+            <img src="https://images.unsplash.com/photo-1501619951397-5ba40d0f75da?auto=format&fit=crop&w=800&q=80">
           </div>
-
           <div class="card__footer">
-            <div class="button-group button-group--block">
-              <button class="button button--secondary">Like</button>
-              <button class="button button--secondary">Comment</button>
-              <button class="button button--secondary">Share</button>
+            <div class="button-group">
+              <button class="button">Like</button>
+              <button class="button">Comment</button>
+              <button class="button">Share</button>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="col-md-4">
-      <div class="card-demo">
-        <div class="card">
-          <div class="card__header">
-            <div class="avatar">
-              <img
-                class="avatar__photo"
-                src="https://avatars1.githubusercontent.com/u/4060187?s=460&v=4"
-                alt="Jared Palmer"
-              />
-              <div class="avatar__intro">
-                <div class="avatar__name">Jared Palmer</div>
-                <small class="avatar__subtitle">Consultant, Speaker, Lead Engineer</small>
-              </div>
-            </div>
-          </div>
+      <!-- CARD 3 -->
+      <div class="col">...</div>
 
-          <div class="card__image">
-            <img
-              src="https://images.unsplash.com/photo-1501619951397-5ba40d0f75da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80"
-              alt="Image alt text"
-            />
-          </div>
+      <!-- CARD 4 -->
+      <div class="col">...</div>
 
-          <div class="card__footer">
-            <div class="button-group button-group--block">
-              <button class="button button--secondary">Like</button>
-              <button class="button button--secondary">Comment</button>
-              <button class="button button--secondary">Share</button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!-- CARD 5 -->
+      <div class="col">...</div>
+
+      <!-- CARD 6 -->
+      <div class="col">...</div>
+
+      <!-- CARD 7 -->
+      <div class="col">...</div>
+
+      <!-- CARD 8 -->
+      <div class="col">...</div>
+
     </div>
   </div>
-</div>
+</body>
+</html>
