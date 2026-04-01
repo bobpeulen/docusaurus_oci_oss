@@ -15,7 +15,7 @@ Docusaurus can manage multiple versions of your docs.
 
 <div class="container">
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
       <div class="card-demo">
         <div class="card">
           <div class="card__header">
@@ -31,14 +31,12 @@ Docusaurus can manage multiple versions of your docs.
               </div>
             </div>
           </div>
-
           <div class="card__image">
             <img
               src="https://images.unsplash.com/photo-1501619951397-5ba40d0f75da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80"
               alt="Image alt text"
             />
           </div>
-
           <div class="card__footer">
             <div class="button-group button-group--block">
               <button class="button button--secondary">Like</button>
@@ -49,8 +47,7 @@ Docusaurus can manage multiple versions of your docs.
         </div>
       </div>
     </div>
-
-    <div class="col-md-4">
+    <div class="col-md-6">
       <div class="card-demo">
         <div class="card">
           <div class="card__header">
@@ -66,17 +63,15 @@ Docusaurus can manage multiple versions of your docs.
               </div>
             </div>
           </div>
-
           <div class="card__image">
             <img
               src="https://images.unsplash.com/photo-1501619951397-5ba40d0f75da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80"
               alt="Image alt text"
             />
           </div>
-
           <div class="card__footer">
             <div class="button-group button-group--block">
-              <button class="button button--secondary">Like</button>
+              <button href="https://www.oracle.com/" class="button button--secondary ">Go to page</button>
               <button class="button button--secondary">Comment</button>
               <button class="button button--secondary">Share</button>
             </div>
@@ -84,8 +79,7 @@ Docusaurus can manage multiple versions of your docs.
         </div>
       </div>
     </div>
-
-    <div class="col-md-4">
+    <div class="col-md-6">
       <div class="card-demo">
         <div class="card">
           <div class="card__header">
@@ -101,14 +95,12 @@ Docusaurus can manage multiple versions of your docs.
               </div>
             </div>
           </div>
-
           <div class="card__image">
             <img
               src="https://images.unsplash.com/photo-1501619951397-5ba40d0f75da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80"
               alt="Image alt text"
             />
           </div>
-
           <div class="card__footer">
             <div class="button-group button-group--block">
               <button class="button button--secondary">Like</button>
@@ -120,81 +112,4 @@ Docusaurus can manage multiple versions of your docs.
       </div>
     </div>
   </div>
-</div>
-
-
-## Example2
-
-function MyCard() {
-  return (
-    <div style={cardStyle}>
-      <Card>
-        <CardHeader
-          className='padding-top--lg'
-          style={{ backgroundColor: 'rgb(33 126 209)', color: 'black' }}
-        >
-          <div className='avatar avatar--vertical'>
-            <img
-              className='avatar__photo avatar__photo--xl'
-              src='https://avatars.githubusercontent.com/u/97809069?v=4'
-            />
-            <div className='avatar__intro'>
-              <div className='avatar__name'>Docux (@Juniors017)</div>
-              <small className='avatar__subtitle'>
-                humble contributor on:
-                <a style={{ color: 'white' }} href='https://docusaurus.community/'>
-                  docusaurus.community
-                </a>
-              </small>
-            </div>
-          </div>
-        </CardHeader>
-
-        <CardImage
-          style={{ backgroundColor: 'rgb(33 126 209)' }}
-          cardImageUrl='https://img.freepik.com/vecteurs-libre/dino-mignon-jouant-illustration-icone-vecteur-dessin-anime-planche-roulettes-concept-icone-sport-animal-isole_138676-7099.jpg'
-        />
-
-        <CardBody
-          style={{ backgroundColor: 'white', color: '#8f600b' }}
-          className='padding-vert--md'
-          textAlign='center'
-        >
-          <h3>Docux Card component</h3>
-          Lorem ipsum dolor sit amet...
-        </CardBody>
-
-        <CardFooter
-          style={{ backgroundColor: '#2887bf', color: 'black' }}
-          className='text--center'
-        >
-          <div className='button-group button-group--block'>
-            <button className='button button--secondary'>Like</button>
-            <button className='button button--secondary'>Comment</button>
-            <button className='button button--secondary'>Share</button>
-          </div>
-        </CardFooter>
-      </Card>
-    </div>
-  );
-}
-
-## Example Grid
-
-<div className="container">
-
-  {/* ROW 1 */}
-  <div className="row">
-    <div className="col col--4"><MyCard /></div>
-    <div className="col col--4"><MyCard /></div>
-    <div className="col col--4"><MyCard /></div>
-  </div>
-
-  {/* ROW 2 */}
-  <div className="row">
-    <div className="col col--4"><MyCard /></div>
-    <div className="col col--4"><MyCard /></div>
-    <div className="col col--4"><MyCard /></div>
-  </div>
-
 </div>
