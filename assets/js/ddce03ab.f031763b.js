@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkbobpeulen_github_io=globalThis.webpackChunkbobpeulen_github_io||[]).push([[3541],{9032(s){s.exports=JSON.parse('{"tags":[{"label":"postgresql","permalink":"/docusaurus_oci_oss/docs/tags/postgresql","count":1},{"label":"opensearch","permalink":"/docusaurus_oci_oss/docs/tags/opensearch","count":1}]}')}}]);
