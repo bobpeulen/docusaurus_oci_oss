@@ -1,6 +1,10 @@
 {
   "label": "OpenSearch",
+<<<<<<< HEAD
   "position": 4,
+=======
+  "position": 3,
+>>>>>>> parent of fd5439a (april8-2)
   "link": {
     "type": "generated-index"
   }
